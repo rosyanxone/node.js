@@ -1,5 +1,5 @@
 // const functionONE = (nama) => `Hi, nama saya ${nama}`;
 // console.log(functionONE('Rausyanfikr'));
-functionONE = require('./coba.js');
+const coba = require('./coba.js');
 
-console.log(functionONE('Rosyan'));
+console.log(coba.functionONE('Rosyan'), coba.PI, coba.mahasiswa.cetakMhs(), new coba.Orang());
